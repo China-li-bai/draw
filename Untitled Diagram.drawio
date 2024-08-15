@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" border="50" scale="3" compressed="false" locked="false" version="24.7.6">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="1450" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1850" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
@@ -385,13 +385,13 @@
           <mxGeometry x="206" y="989" width="156" height="27" as="geometry" />
         </mxCell>
         <mxCell id="JXTHDJPpR9UnVMM9HU8K-25" value="对一事情，物品，人 提高兴趣，提高兴奋度， 脑袋里的神经链接要建立起来通路，&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-112" y="792" width="460" height="41" as="geometry" />
+          <mxGeometry x="-452" y="563" width="460" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="JXTHDJPpR9UnVMM9HU8K-26" value="如果你不想 ，不喜欢做一个事情，或者感觉做这个事情很烦。一般是因为你不熟悉它，脑袋里没有路可走，&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-178" y="814" width="585" height="41" as="geometry" />
+        <mxCell id="JXTHDJPpR9UnVMM9HU8K-26" value="如果你不想 ，不喜欢做一个事情，或者感觉做这个事情很烦。一般是因为你不熟悉它,人们讨厌陌生，对未知有，迷茫恐惧感。可以形象的比喻脑袋里没有路可走，&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-459" y="612" width="877" height="41" as="geometry" />
         </mxCell>
         <mxCell id="JXTHDJPpR9UnVMM9HU8K-27" value="站起来走走，脑袋里想象，模拟你做这个事情的详情动作&lt;div&gt;会遇到什么问题，&lt;/div&gt;&lt;div&gt;多想几遍&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-311" y="843" width="318" height="70" as="geometry" />
+          <mxGeometry x="-448" y="661" width="318" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
