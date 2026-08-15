@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="cMQQVUj-V57unEqxc8Oj">
+    <mxGraphModel adaptiveColors="auto" dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lane1" value="业务部门" style="swimlane;horizontal=0;startSize=110;fillColor=#f5f5f5;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="create" value="提交供应链工单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="lane1">
+          <mxGeometry x="120" y="45" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="approve" value="业务审核" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="lane1">
+          <mxGeometry x="480" y="35" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" value="供应链平台" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f4f8;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="150" width="1200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="receive" value="接收并创建工单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="lane2">
+          <mxGeometry x="300" y="45" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dispatch" value="规则匹配与任务派发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="lane2">
+          <mxGeometry x="660" y="45" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor" value="状态跟踪与异常预警" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="lane2">
+          <mxGeometry x="1020" y="45" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lane3" value="采购与仓储" style="swimlane;horizontal=0;startSize=110;fillColor=#fff0e6;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="300" width="1200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="execute" value="采购 / 备货" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lane3">
+          <mxGeometry x="480" y="45" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stock" value="入库与库存更新" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="lane3">
+          <mxGeometry x="840" y="45" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lane4" value="物流与交付" style="swimlane;horizontal=0;startSize=110;fillColor=#e8f5e9;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="450" width="1200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ship" value="安排发运" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="lane4">
+          <mxGeometry x="660" y="45" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="deliver" value="签收确认与工单关闭" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="lane4">
+          <mxGeometry x="1020" y="45" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arch" value="核心系统架构" style="swimlane;horizontal=0;startSize=30;fillColor=#fff9e6;strokeColor=#d6b656;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="630" width="1200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="portal" value="工单门户&#xa;业务提交 / 查询" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="arch">
+          <mxGeometry x="40" y="60" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow" value="工单与流程引擎&#xa;审批 / 派发 / SLA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="arch">
+          <mxGeometry x="240" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="integration" value="集成服务&#xa;ERP / WMS / TMS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="arch">
+          <mxGeometry x="460" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="data" value="业务数据平台&#xa;订单 / 库存 / 物流" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="arch">
+          <mxGeometry x="680" y="55" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="notice" value="消息与告警中心&#xa;通知 / 异常升级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="arch">
+          <mxGeometry x="880" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="提交" edge="1" parent="1" source="create" target="receive" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="审核" edge="1" parent="1" source="receive" target="approve" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="通过" edge="1" parent="1" source="approve" target="dispatch" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="执行" edge="1" parent="1" source="dispatch" target="execute" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="到货" edge="1" parent="1" source="execute" target="stock" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="发运" edge="1" parent="1" source="stock" target="ship" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="交付" edge="1" parent="1" source="ship" target="deliver" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" value="状态同步" edge="1" parent="1" source="stock" target="monitor" style="edgeStyle=orthogonalEdgeStyle;rounded=1;dashed=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" value="系统支撑" edge="1" parent="1" source="portal" target="workflow" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" value="接口调用" edge="1" parent="1" source="workflow" target="integration" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="数据写入" edge="1" parent="1" source="integration" target="data" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" value="异常通知" edge="1" parent="1" source="monitor" target="notice" style="edgeStyle=orthogonalEdgeStyle;rounded=1;dashed=1;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
