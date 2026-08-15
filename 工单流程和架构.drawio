@@ -101,7 +101,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Se1T8Sy2TIfc2LoE4_lc" name="第 2 页">
-    <mxGraphModel dx="774" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="964" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,11 +138,14 @@
         <mxCell id="7qaF_6SUQnL4Xvte1zva-11" parent="1" style="whiteSpace=wrap;html=1;" value="采销工单群" vertex="1">
           <mxGeometry height="60" width="120" x="790" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="7qaF_6SUQnL4Xvte1zva-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="分配跟单负责人" vertex="1">
+        <mxCell id="7qaF_6SUQnL4Xvte1zva-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="跟单-负责人" vertex="1">
           <mxGeometry height="30" width="106" x="674" y="530" as="geometry" />
         </mxCell>
         <mxCell id="7qaF_6SUQnL4Xvte1zva-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PO260804153674&amp;nbsp; 客户反馈收货发现坏了一把，坏的那把快递员直接拉走了，实收13把，需补发一把。" vertex="1">
           <mxGeometry height="40" width="240" x="290" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="OIe6eiymCLrp_RTAOqVo-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="客户，自己内部跟单的人" vertex="1">
+          <mxGeometry height="30" width="150" x="200" y="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
